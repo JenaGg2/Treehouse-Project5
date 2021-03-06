@@ -19,3 +19,10 @@
  .search {
      margin-top: 40px;
  }
+
+ /* grid layour for images */
+
+ .container {
+     display: grid;
+     max-width: 800px;
+ }
