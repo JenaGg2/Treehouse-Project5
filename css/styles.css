@@ -1,4 +1,21 @@
+ * {
+     box-sizing: border-box;
+ }
+ 
  body {
      text-align: center;
-     width: 700px;
+     background-color: azure;
+ }
+
+
+ input {
+     width: 550px;
+     padding: 10px;
+     border: 2px solid rgb(144, 144, 168);
+     border-radius: 5px;
+     margin: 20px;
+ }
+
+ .search {
+     margin-top: 40px;
  }
