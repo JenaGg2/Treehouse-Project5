@@ -22,7 +22,11 @@
 
  /* grid layour for images */
 
- .container {
+ .gallery {
      display: grid;
-     max-width: 800px;
+     grid-template-columns: 200px 200px 200px 200px;
+     justify-content: center;
+     gap: 20px;
+     
+    
  }
