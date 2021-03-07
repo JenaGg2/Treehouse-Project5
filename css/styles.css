@@ -7,7 +7,9 @@
      background-color: azure;
  }
 
-
+img {
+    width: 100%;
+}
  input {
      width: 550px;
      padding: 10px;
@@ -23,11 +25,15 @@
 
  /* grid layout for images */
 
- .gallery {
+
+ 
+ 
+  .gallery { 
      display: grid;
      grid-template-columns: repeat(4, 200px);
      grid-template-rows: repeat(3, 1fr);
      justify-content: center;
      gap: 30px;
      
-    }
+     }
+    
